@@ -66,33 +66,38 @@ li a:hover{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
-    grid-template-rows: minmax(100px, auto);
+    /* grid-template-rows: minmax(100px, auto); */
+    height: 300px;
 }
   
 .one{
-    grid-column: 1;
-    grid-row: 2 / 5;
+    /* grid-column: 1;
+    grid-row: 1 / 2; */
     background-color: #182b49;
     color: white;
+    overflow: auto;
   }
 
   .two {
-    grid-column: 2;
-    grid-row: 2 / 5;
+    /* grid-column: 2;
+    grid-row: 1 / 2; */
     background-color: #182b49;
     color: white;
+    overflow: auto;
   }
 
   .three {
-    grid-column: 3;
-    grid-row: 2 / 5;
+    /* grid-column: 3;
+    grid-row: 1 / 2; */
     background-color: #182b49;
     color: white;
+    overflow: auto;
   }
 
   .four {
-    grid-column: 4;
-    grid-row: 2 / 5;
+    /* grid-column: 4;
+    grid-row: 1 / 2; */
     background-color: #182b49;
     color: white;
+    overflow: auto;
   }
